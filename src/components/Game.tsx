@@ -54,6 +54,7 @@ export class Game extends React.Component<GameProps, GameState> {
 
     return (
       <div className={styles.game}>
+        <h1>Tic-Tac-Toe</h1>
         <Board
           squares={current}
           winLine={winner?.line}
